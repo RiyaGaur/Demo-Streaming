@@ -1,0 +1,33 @@
+.Card{
+    width: 13%; 
+    height: 50vh; 
+    margin: 30px 3px;
+
+    @media (max-width: 480px){
+        width: 80%;
+        height: 60vh;
+    }
+    @media (min-width: 481px) and (max-width: 768px){
+        width: 30%;
+        height: 37vh;
+    }
+    @media (min-width: 769px) and (max-width: 1024px){
+        width: 30%;
+        height: 40vh;
+    }
+}
+
+.card-title{
+    font-size: 12px;
+    text-align: center;
+
+    @media (max-width: 480px){
+        font-size: 15px; 
+    }
+    @media (min-width: 481px) and (max-width: 768px){
+        font-size: 15px;
+    }
+    @media (min-width: 769px) and (max-width: 1024px){
+        font-size: 17px;
+    }
+}

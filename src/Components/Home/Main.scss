@@ -1,0 +1,52 @@
+.twoCards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 38px 0;
+    min-height: 56.3vh;
+
+    @media( max-width: 1300px) and (min-width: 1025px){
+        min-height: 42.5vh;
+    }
+    
+
+    @media only screen and (max-width: 480px){
+        align-content: center;
+        flex-direction: column;
+        margin: 48px 0;
+        min-height: 0;
+
+    }
+    @media (min-width: 481px) and (max-width: 768px){
+        min-height: 64vh; 
+    }
+    @media (min-width: 769px) and (max-width: 1024px){
+        min-height: 73vh; 
+    }
+
+    .nav-link{
+        @media (max-width: 480px){
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .card{
+        width: 10rem;
+
+        @media (max-width: 480px){
+            width: 80%;
+            margin-bottom: 20px;
+        }
+        @media (max-width: 1024px) and (min-width: 600px){
+            width: 19.5rem;
+        }
+
+        .card-title{
+            color: Black;
+            @media (max-width: 1024px) and (min-width: 600px){
+                font-size: 28px;
+            }
+        }
+    }
+    
+}
