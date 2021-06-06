@@ -1,5 +1,5 @@
 # DEMO Streaming 
-<hr>
+
 ### How did you decide on the technical and architectural choices used as part of your solution?
 1. It is user friendly.
 2. Make easy for user to search for movies and series.
